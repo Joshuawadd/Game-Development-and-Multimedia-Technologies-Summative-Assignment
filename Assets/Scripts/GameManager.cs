@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameoverUI;
 
+    public GameObject completeLevelUI;
+
+    public SceneFader sceneFader;
+
     void Start()
     {
         GameIsOver = false;
@@ -32,5 +36,11 @@ public class GameManager : MonoBehaviour
     {
         GameIsOver = true;
         gameoverUI.SetActive(true);
+    }
+
+    public void WinLevel()
+    {
+        GameIsOver = true;
+        completeLevelUI.SetActive(true);
     }
 }

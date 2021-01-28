@@ -89,6 +89,7 @@ public class Turret : MonoBehaviour
         {
             if (fireCountdown <= 0f)
         {
+            
             Shoot();
             fireCountdown = 1f / fireRate;
         }
@@ -129,7 +130,7 @@ public class Turret : MonoBehaviour
     }
 
     void Shoot()
-    {
+    {      
         GameObject bulletGO = (GameObject)Instantiate (bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
 
@@ -137,6 +138,7 @@ public class Turret : MonoBehaviour
         {
             bullet.Seek(target);
         }
+        
     }
 
     void OnDrawGizmosSelected ()

@@ -4,6 +4,8 @@
 
 To run simply start Tower Defence.exe, follow the onscreen instructions and controls to play the game.
 
+(One bug was noticed just before submission. If player attempts to retry the level mid wave the game will glitch and not spawn any enemies. Full quit may be needed if this happens)
+
 ### CONTROLS
 
 W -Move Camera forward

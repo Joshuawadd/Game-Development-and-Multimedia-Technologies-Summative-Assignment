@@ -10,11 +10,11 @@ To run simply start Tower Defence.exe, follow the onscreen instructions and cont
 
 W -Move Camera forward
 
-W -Move Camera forward
+S -Move Camera backwards
 
-W -Move Camera forward
+A -Move Camera left
 
-W -Move Camera forward
+D -Move Camera right
 
 Scroll forward - Zoom in
 
